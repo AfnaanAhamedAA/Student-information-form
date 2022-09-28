@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+    <h1>Form</h1>
+</head>
+<body>
+    <form>
+        <form action="/action.php"></form>
+        <div class="box">
+      <span>  <p>Name:
+        <input type="text" required name="Name" placeholder="Enter your name">
+    </p>
+
+        
+        <p>Email:
+        <input type="text" required name="Email" placeholder="Enter your email">
+    </p>
+
+<p>Mobile:
+<input type="text" placeholder="Enter your Mobile">
+</p>
+</span>
+</div>
+<hr>
+<u>
+<h2>Enter Your details</h2>
+</u>
+
+    <fieldset>
+    <legend><h4>Branch</h4></legend>
+
+
+<label for="101">
+    <input type="radio" value="CS" name="Class" id="101"> CS
+    <input type="radio" value="IS" name="Class" id="101"> IS
+    <input type="radio" value="EEE" name="Class" id="101"> EEE
+    <input type="radio" value="ECE" name="Class" id="101"> ECE
+    <input type="radio" value="CV" name="Class" id="101"> CV
+</label>
+</fieldset>
+
+<hr>
+<div class="main">
+<div class="box3">
+<h4>Intersted Course</h4>
+</div>
+<div class="box4">
+<label>
+<input type="checkbox" value="Full Stack Web Dev" name="course"> Full Stack Web Dev
+</label>
+</div>
+<br>
+<div class="box5">
+<label>
+    <input type="checkbox" value="Java" name="course"> Java
+</label>
+</div>
+
+<br>
+<div class="box6">
+<lebel>
+    <input type="checkbox" value="Data Science" name="course"> Data Science
+</label>
+</div>
+</div>
+
+<br>
+<hr>
+<div class="box7">
+<h4>Select your Degree</h4>
+
+
+<select name="Degree" id="Degree"> 
+    <option value="BTECH">BTECH</option>
+    <option value="MTECH">MTECH</option>
+    <option value="Diploma">Dip</option>
+    <option value="Others">Others</option> 
+</select>
+</div>
+<hr>
+<input type="submit" value="Done">   
+<hr>
+<textarea name="Feedback"  row="5" id="Feedback" placeholder="Please Enter Feedback">
+</textarea>
+<hr>
+<h3>Thankyou</h3>
+<br>
+</form>
+</body>
+</html>

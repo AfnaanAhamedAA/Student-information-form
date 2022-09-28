@@ -1,0 +1,97 @@
+head,body{
+    background-color: rgba(152, 145, 145, 0.493);
+ border: 2px solid black;
+ padding: 20px;
+ border-radius: 5px;
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
+    background-color: transparent;
+}
+div.box{
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.477);
+
+}
+p{
+    font-size: x-large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input{
+    font-size: x-large;
+    background-color: rgba(240, 248, 255, 0.697);
+}
+h2{
+    text-align: center;
+    background-color: transparent;
+}
+h4{
+    text-align: center;
+}
+div.box2{
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.501);
+    font-size: x-large;
+    
+}
+div.box3{
+    text-align: center;
+    font-size: x-large;
+    
+}
+div.box4{
+    text-align: center;
+    font-size: x-large;
+}
+div.box5{
+    
+    text-align: center;
+    font-size: x-large;
+}
+div.box6{
+    text-align: center;
+    font-size: x-large;
+}
+div.main{
+    background-color: rgba(128, 128, 128, 0.501);
+}
+div.box7{
+     
+    text-align: center;
+    font-size: x-large;
+    background-color: rgba(128, 128, 128, 0.501);
+}
+select{
+    font-size:large;
+}
+select:hover{
+    color: goldenrod;
+}
+fieldset{
+    text-align: center;
+    font-size: x-large;
+    background-color:  rgba(128, 128, 128, 0.501);;
+}
+input[type="submit"]{
+    font-size: x-large;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 100%;
+    background-color: darkseagreen;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: rgb(132, 252, 128);
+}
+textarea{
+    font-size: large;
+    width: 100%;
+    height: 200px;
+}
+h3{
+    font-size: x-large;
+    text-align: center;
+}
